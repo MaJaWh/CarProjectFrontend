@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Avatar from '../../shared/components/UiElements/Avatar';
+import Card from '../../shared/components/UiElements/Card';
 import './UserItem.css';
 
 function UserItem(props) {
   return (
     <li className="user-item">
-      <div className="user-item__content">
+      <Card className="user-item__content">
         <Link to={`/${props.id}/places`}>
           <div className="user-item__image">
             <Avatar image={props.image} alt={props.name} />
@@ -19,7 +20,7 @@ function UserItem(props) {
             </h3>
           </div>
         </Link>
-      </div>
+      </Card>
     </li>
   );
 }
