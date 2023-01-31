@@ -5,7 +5,7 @@ function Users() {
   const USERS = [
     {
       id: 'U1',
-      name: 'Max Schwarz',
+      name: 'Mark Whitehead',
       image: 'https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg',
       places: 3,
     },
