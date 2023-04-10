@@ -61,7 +61,7 @@ function Input(props) {
         value={inputState.value}
       />
     ) : (
-      <textArea
+      <textarea
         id={props.id}
         rows={props.rows || 3}
         onChange={changeHandler}
