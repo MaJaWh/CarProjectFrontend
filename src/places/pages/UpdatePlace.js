@@ -48,7 +48,7 @@ function UpdatePlace() {
   if (!identifiedPlace) {
     return (
       <div className="center">
-        <h2>Couldnot find place!</h2>
+        <h2>Could not find place!</h2>
       </div>
     );
   }
